@@ -1,0 +1,14 @@
+#//[
+#include <iostream>
+#define print(s) std::cout << s << "\n";
+#define True int main() {
+#define False }
+
+True
+#//<?php
+print("Hello, World!");
+#//?>
+False
+#//]
+
+#//++++++++[>+++++++++>+++++++++++++>++++++>++++>+++++++++++<<<<<-]>.>---.+++++++..+++.>----.>.>-.<<<.+++.------.--------.>>+.
