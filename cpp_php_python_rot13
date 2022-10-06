@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cctype>
+#include <string>
+#define exec(x) { std::cout << "Enter a string:"; std::string source; std::cin >> source; std::string transformed;	for (size_t i = 0; i < source.size(); ++i) { if (isalpha(source[i])) { if ((tolower(source[i]) - 'a') < 14) transformed.append(1, source[i] + 13); else transformed.append(1, source[i] - 13); } else { transformed.append(1, source[i]); }	} std::cout << transformed << "\n"; }
+#define readline(x) do {} while(0)
+#define echo(x) do {} while(0)
+#define True int main() {
+#define False }
+#define python_code std::string python_code
+#define str_rot13(x) do {} while(0)
+
+True
+python_code = "from codecs import encode\ndef echo(x): pass\ndef readline(x): pass\ndef str_rot13(x): pass\nprint(encode(input('Enter a string:'), 'rot-13'))";
+exec(python_code);
+#//<?php
+echo(str_rot13(readline("Enter a string:")));
+#//?>
+False
